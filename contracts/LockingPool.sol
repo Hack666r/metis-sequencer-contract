@@ -180,7 +180,7 @@ contract LockingPool is ILockingPool, PausableUpgradeable, SequencerInfo {
      * @dev lockFor lock Metis and participate in the sequencer node
      *      the msg.sender will be owner of the sequencer
      *      the owner has abilities to leverage lock/relock/unlock/cliam
-     *      **Note**: the locking amount will be trasnfered from msg.sender
+     *      **Note**: the locking amount will be transferred from msg.sender
      *      and you need to approve the Metis of msg.sender to **LockingInfo** contract
      *      instead of this LockingPool contract
      *
